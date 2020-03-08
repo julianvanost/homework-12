@@ -350,7 +350,6 @@ const askToAddRole = () => {
       .then(({ departmentItem, roleTitle, roleSalary }) => {
         let deptArray = departmentItem.split(':')
         let roleItem = { department_id: deptArray[0], title: roleTitle, salary:roleSalary }
-        //console.log(departItem)
         createRole(roleItem, () => { console.log(`New role added!`) })
         startQuestions()
 
@@ -376,11 +375,8 @@ const askToRemoveDepartment = () => {
     }])
       .then(({ departmentItem }) => {
         let deptArray = departmentItem.split(':')
-        //let departItem = { department_id: deptArray[0], name: deptArray[1] }
-        //console.log(departItem)
         deleteDepartment(deptArray[0], () => { console.log(`${deptArray[1]} deleted!`) })
         startQuestions()
-
       })
   })
 
@@ -591,6 +587,4 @@ order by e.employee_id;
   })
 
 }
-
-
 startQuestions()

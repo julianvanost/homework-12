@@ -3,7 +3,7 @@ Create database employees_db;
 Use employees_db;
 Create Table department(
   department_id int primary key auto_increment not null,
-  `name` varchar(30) unique not null
+  name varchar(30) unique not null
 );
 Use employees_db;
 Create Table role(
