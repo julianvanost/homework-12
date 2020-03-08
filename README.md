@@ -2,7 +2,7 @@
 #### Managing a company's employees using node, inquirer, and MySQL
 ![License: None](https://img.shields.io/badge/License-None-brightgreen)
 
-__Boot Camp Homework 11 - Note Taker__
+__Boot Camp Homework 12 - Employee-Tracker__
 
 ---
 
