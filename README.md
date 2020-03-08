@@ -1,7 +1,9 @@
+# Employee Tracker Console Application 
+#### Managing a company's employees using node, inquirer, and MySQL
+![License: None](https://img.shields.io/badge/License-None-brightgreen)
+
 __Boot Camp Homework 12 - Employee-Tracker__
-
 ---
-
 __Installation:__
 Deployment: in the config.db folder, find your database schema and seed files for MySQL. Query those within MySQL workbench to create your database and seed its tables.
 
